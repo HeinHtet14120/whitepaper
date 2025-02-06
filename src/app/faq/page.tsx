@@ -69,7 +69,7 @@ export default function FAQ() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold">What new API features are coming?</h3>
-                <p className="mt-2">We're working on WebSocket support, GraphQL integration, and additional SDK languages. Check our roadmap for more details.</p>
+                <p className="mt-2">We&apos;re working on WebSocket support, GraphQL integration, and additional SDK languages. Check our roadmap for more details.</p>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function FAQ() {
                 <p className="mt-2">You can:</p>
                 <ul className="list-disc list-inside mt-2">
                   <li>Join our Discord community</li>
-                  <li>Follow us on Twitter @JrMafia404</li>
+                  <li>Follow us on Twitter @CookieDataSwarm</li>
                   <li>Check our documentation</li>
                   <li>Email support for direct assistance</li>
                 </ul>

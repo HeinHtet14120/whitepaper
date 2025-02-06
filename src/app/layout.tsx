@@ -1,7 +1,6 @@
 import "./globals.css"
 import { Inter } from "next/font/google"
 import Sidebar from "./components/Sidebar"
-import ThemeToggle from "./components/ThemeToggle"
 import { ThemeProvider } from "./components/ThemeProvider"
 import type React from "react"
 
