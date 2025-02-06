@@ -12,26 +12,43 @@ const Sidebar = () => {
       <div className="mb-8" onClick={handleClick}>
         <h1 className="text-xl font-bold cursor-pointer bg-gradient-to-tr from-red-500 to-red-800 text-transparent bg-clip-text">Junior Mafia docs</h1>
       </div>
-      <div className="mb-8">
-        <h2 className="text-lg font-semibold mb-2">Coming Soon</h2>
+      <section className="mb-6">
+        <h2 className="text-md font-bold mb-3 text-gray-200 flex items-center">
+          Documentation
+        </h2>
         <ul className="space-y-2">
           <li>
-            <Link href="/swap" className="block font-normal py-1 px-2 hover:bg-gray-800 rounded">
-              Token Swap
-            </Link>
-          </li>
-          <li>
-            <Link href="/endpoints" className="block font-normal py-1 px-2 hover:bg-gray-800 rounded">
-              API Endpoints
-            </Link>
-          </li>
-          <li>
-            <Link href="/faq" className="block font-normal py-1 px-2 hover:bg-gray-800 rounded">
-              FAQ
+            <Link
+              href="/"
+              className="block font-medium text-sm py-2 px-3 rounded-md transition-colors duration-200 text-gray-500 hover:text-white"
+            >
+              Getting Started
             </Link>
           </li>
         </ul>
-      </div>
+      </section>
+
+      <section>
+        <h2 className="text-md font-bold mb-3 text-gray-200 flex items-center">
+          Coming Soon
+        </h2>
+        <ul className="space-y-2">
+          {[
+            { href: "/swap", label: "Token Swap", },
+            { href: "/endpoints", label: "API Endpoints",  },
+            { href: "/faq", label: "FAQ",  },
+          ].map((item) => (
+            <li key={item.href}>
+              <Link
+                href={item.href}
+                className="block text-sm font-medium py-2 px-3 rounded-md transition-colors duration-200 text-gray-500 hover:text-white"
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
     </nav>
   )
 }
