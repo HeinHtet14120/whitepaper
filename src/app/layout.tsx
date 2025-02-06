@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Junior Mafia docs",
   description: "Documentation for Junior Mafia API",
+  icons: {
+    icon: '/palette.svg',
+  },
 }
 
 export default function RootLayout({
