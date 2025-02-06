@@ -82,7 +82,7 @@ export default function FAQ() {
                 <p className="mt-2">You can:</p>
                 <ul className="list-disc list-inside mt-2">
                   <li>Join our Discord community</li>
-                  <li>Follow us on Twitter @CookieDataSwarm</li>
+                  <li>Follow us on Twitter @prime_ai404</li>
                   <li>Check our documentation</li>
                   <li>Email support for direct assistance</li>
                 </ul>

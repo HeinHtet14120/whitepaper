@@ -10,7 +10,7 @@ const Sidebar = () => {
   return (
     <nav className="w-64 bg-gray-900 h-full text-white p-4">
       <div className="mb-8" onClick={handleClick}>
-        <h1 className="text-xl font-bold cursor-pointer bg-gradient-to-tr from-red-500 to-red-800 text-transparent bg-clip-text">Junior Mafia docs</h1>
+        <h1 className="text-xl font-bold cursor-pointer bg-gradient-to-tr from-red-500 to-red-800 text-transparent bg-clip-text">Prime AI docs</h1>
       </div>
       <section className="mb-6">
         <h2 className="text-md font-bold mb-3 text-gray-200 flex items-center">

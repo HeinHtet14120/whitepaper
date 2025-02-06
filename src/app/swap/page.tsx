@@ -24,7 +24,7 @@ export default function ComingSoon() {
             <p>Follow our development progress:</p>
             <ul className="list-disc list-inside space-y-2">
               <li>Join our Discord community for development updates</li>
-              <li>Follow us on Twitter @JrMafia404</li>
+              <li>Follow us on Twitter @prime_ai404</li>
               <li>Subscribe to our newsletter for launch notifications</li>
               <li>Check our GitHub repository for technical previews</li>
             </ul>

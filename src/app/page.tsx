@@ -1,10 +1,10 @@
 export default function Home() {
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-8 text-gray-300">Junior Mafia Documentation</h1>
+      <h1 className="text-4xl font-bold mb-8 text-gray-300">Prime AI Documentation</h1>
       
       <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 mb-8">
-        <div className="text-2xl text-gray-400 font-bold mb-4">Welcome to Junior Mafia</div>
+        <div className="text-2xl text-gray-400 font-bold mb-4">Welcome to Prime AI</div>
         <div className="mb-4 text-gray-400">
           This documentation will help you understand and integrate with our comprehensive crypto intelligence platform.
           Explore our various features and learn how to leverage our powerful APIs.
